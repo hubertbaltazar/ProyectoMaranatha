@@ -8,13 +8,13 @@ package com.maranatha.sysventas.controlador;
 
 /**
  *
- * @author alum.fial7
+ * @author Docente
  */
 public class FactoryConnectionDB {
-     public static final int MYSQL = 1;
+    public static final int MYSQL = 1;
     public static final int ORACLE = 2;
     public static final int POSTGRESQL = 3;
-    public static String[] configMYSQL ={"bd_almacen","root","root"};
+    public static String[] configMYSQL ={"bd_maranatha","root","root"};
     public static String[] configORACLE ={"bd_sysdgp","",""};
     public static String[] configPOSTGRESQL ={"academico","postgres","plsql"};
     public static ConexionBD open(int typeDB){
@@ -31,4 +31,5 @@ public class FactoryConnectionDB {
                 return null;
         }
     }
+            
 }
