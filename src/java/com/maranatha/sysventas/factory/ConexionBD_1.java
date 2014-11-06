@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.maranatha.sysventas.controlador;
+package com.maranatha.sysventas.factory;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
